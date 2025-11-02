@@ -13,6 +13,8 @@ spec:
     server: https://kubernetes.default.svc
     namespace: swati-ns
   syncPolicy:
+    syncOptions:
+      - syncTimeout=3s
     automated:
       prune: true
       selfHeal: true

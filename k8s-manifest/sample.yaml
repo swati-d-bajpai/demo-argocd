@@ -4,7 +4,7 @@ metadata:
   name: swati-nginx-demo
   namespace: swati-ns
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
